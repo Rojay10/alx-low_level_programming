@@ -1,1 +1,1 @@
-a function to update the reference of a pointer
+98 Battery street: Write a function that takes a pointer to an int as parameter and updates the value it points to 98.
