@@ -1,4 +1,4 @@
-#include "mnain.h"
+#include "main.h"
 
 /**
  * rev_string -> reversing a string
