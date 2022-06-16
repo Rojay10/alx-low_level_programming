@@ -1,23 +1,29 @@
 #include "main.h"
 
 /**
- * _strcat -> this is a function strcat
+ * _strcat - concatenates two strings
  * @dest: first param
  * @src: second param
- * Return: a string
+ *
+ * Return: void
  */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-	int len = 0, i;
+	int f;
+	int j;
 
-	while (dest[len])
-		len++;
-
-	for (i = 0; src[i] != 0; i++)
+	f = 0;
+	while (dest[f] != '\0')
 	{
-		dest[len] = src[i];
-		len += 1;
+		f++;
 	}
-	dest[len] = '\0';
+	j = 0;
+	while (src[j] != '\0')
+	{
+		dest[f] = src[j];
+		f++;
+		j++;
+	}
+	dest[f] = '\0';
 	return (dest);
 }
