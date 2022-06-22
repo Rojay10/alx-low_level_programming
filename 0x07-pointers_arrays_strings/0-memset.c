@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _memst -> this memeory set function
+ * _memset -> this memeory set function
  * @s: string
  * @b: a character
  * @n: an integer
