@@ -2,9 +2,9 @@
 
 /**
  * print_chessboard - prints chessboard.
+ * @a: the pointer to the array
  *
- * @a: rows.
- * Return: Nothing.
+ * Return: void
  */
 
 void print_chessboard(char (*a)[8])
